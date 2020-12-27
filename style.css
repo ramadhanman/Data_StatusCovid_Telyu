@@ -1,0 +1,48 @@
+
+
+/* Navbar */
+.navbar-brand {
+    font-family: 'Mitr',sans-serif;
+    font-size: 18px;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+/* form */
+.form {
+    margin-top: 80px !important;
+}
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-family: 'Mitr',sans-serif;
+        font-size: 25px;
+        color: white !important;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
